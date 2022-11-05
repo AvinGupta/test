@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    padding-left:5px ;
+    color: white;
+    font-size: 20px;
+}
+li:nth-last-of-type() button{
+    color: #29d9d5;
+}
+li a{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    background-color:black;
+    width :100%;
+}
+#start{
+    position: absolute;
+    right:50px;
+}
+image_d{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+
+}
